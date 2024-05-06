@@ -66,3 +66,10 @@ export function infoDel(id){
         url:`/info/${id}`
     })
 }
+
+export function dataView() {
+    return service({
+        method:'get',
+        url:"/view",      
+    })
+}
